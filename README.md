@@ -1,4 +1,5 @@
-# Bioinformatics 
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8745836&assignment_repo_type=AssignmentRepo)
+# Bioinformatics
 (CMPSC 300) Lab 4
 
 This repository contains information about Bioinformatics lab 4 deliverables. This assignment invites students to write Python code to complete an Analysis of DNA.
@@ -74,6 +75,22 @@ You will want to first combine your individual FASTA sequences data files from t
 Next, you will want to address the Function, `completeSequenceTests()` in the program to complete four additional sequence checks or tests. Two of the checks have been added but the code is still incomplete. You are to fix this code and then choose the two remaining checks or tests to add to the program. As help to guide your coding, you may use the [BioPython documentation](https://biopython.org/wiki/SeqIO), or another reference, as necessary.
 
 Your completed code should run without crashing and be free of bugs.
+
+### Running Your Code
+
+It might be best to run your code from outside the `src/` directory to be able to access the data files in the `data/` directory. An output of the program when running from the project root directory is shown below. Note that the path to the FASTA file is being entered before the filename.
+
+```
+$python3 src/openAndTestFastaSeq.py
+	 Enter the name of the FASTA file to open :data/1_seq.fasta
+	 [+] Opening FASTA file :data/1_seq.fasta
+
+	 [+] Sequence Name: seq_x1
+	 [+] First 50 bases of sequence data: GTAGTGGTGAGACACTTGGTGTCCTTGTCCCTCATGTGGGCGAAATACCA
+	 [+] Length of Sequence: 4114
+	 [+] Running some tests on sequence from BioPython ...
+		 - Further processing: seq_x1
+```
 
 ---
 
