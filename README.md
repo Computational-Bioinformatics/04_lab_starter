@@ -4,12 +4,6 @@
 
 This repository contains information about Bioinformatics lab 4 deliverables. This assignment invites students to write Python code to complete an Analysis of DNA.
 
-## Dates
-
-Handed out: 03 Oct 2022
-
-Due: 17 Oct 2022
-
  ## Contents
 
 - [Objectives](#Objectives)
